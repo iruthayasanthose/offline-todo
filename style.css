@@ -81,3 +81,33 @@ li {
   cursor: pointer;
   border: none;
 }
+
+@media only screen and (max-width: 600px) {
+  .container {
+    height: 100vh;
+    background-image: url(./bg.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  h1 {
+    color: #c9a782;
+  }
+  input {
+    width: 40%;
+    margin-right: 16px;
+    font-size: 1em;
+    background: none;
+    color: #000;
+    border-bottom: solid 3px #000;
+  }
+  input::placeholder {
+    color: #000;
+  }
+  li {
+    background: none;
+  }
+  .rem {
+    background: none;
+  }
+}
