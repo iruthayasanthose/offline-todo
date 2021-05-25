@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html manifest="./offline.appcache">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="This web app was a To-do list App. This app works in both offline & online irrespective of internet."
+    />
+    <meta name="description" content="@Matt-smashingmagazine" />
+    <meta name="Owner" content="Iruthaya Santhose I" />
+    <meta
+      name="description"
+      content="It was an project was open source, but give the credits for the creators."
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css" media="all" />
+    <title>To-do List</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Todo's List</h1>
+      <form>
+        <input placeholder="Add your To-do..." />
+        <button id="add">Add</button>
+      </form>
+      <ul id="mylist"></ul>
+    </div>
+    <script src="./indexeddb.shim.min.js"></script>
+    <script src="./app.js"></script>
+    <script src="button.js"></script>
+  </body>
+</html>
