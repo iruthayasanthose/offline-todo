@@ -52,10 +52,3 @@ Project is: _complete_
 
 ## Contact
 Created by [@iruthaya__](https://www.instagram.com/iruthaya__/) - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
